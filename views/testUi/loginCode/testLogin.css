@@ -1,0 +1,17 @@
+* {
+  margin: auto;
+  text-align: center;
+}
+
+.div-examCode {
+  margin-top: 2rem;
+}
+
+#btn_start {
+  margin-top: 1rem;
+  position: absolute;
+}
+
+* {
+  font-family: sans-serif;
+}

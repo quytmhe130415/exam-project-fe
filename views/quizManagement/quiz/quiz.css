@@ -1,0 +1,51 @@
+select {
+  height: 30px;
+  outline: none;
+  font-size: small;
+}
+
+option:hover {
+  outline: none;
+}
+
+table button {
+  cursor: pointer;
+  height: 30px;
+  margin: 5px;
+  background-color: white;
+  color: black;
+  border: 1px solid #555555;
+  outline: none;
+}
+
+#btn_add {
+  float: right;
+  cursor: pointer;
+  height: 30px;
+  margin: 5px;
+  background-color: white;
+  outline: none;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+#btn_add {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+#btn_add:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.textareaQuestion {
+  border: none;
+  resize: none;
+  outline: none;
+  height: 100%;
+  background-color: transparent;
+}

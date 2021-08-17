@@ -1,0 +1,120 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+td, th, tr {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+}
+
+* {
+  text-align: center;
+}
+
+.divSubject {
+  text-align: start;
+}
+
+#btn_add {
+  display: block;
+}
+
+.header {
+  display: flex;
+  height: 4rem;
+  line-height: 4rem;
+  justify-content: space-evenly;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+.header button, #btn_Logout {
+  border: none;
+  background-color: transparent;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.header button:hover {
+  color: red;
+}
+
+#btn_Logout {
+  float: right;
+  width: 36px;
+  height: 36px;
+}
+
+.admin {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.header .logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+html {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://www.nationalgeographic.com/content/dam/yourshot/2018/10/12900534.ngsversion.1571254733633.adapt.1900.1.jpg');
+}
+
+.container {
+  background-color: rgba(178, 190, 195, 1.0);
+  min-width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  min-height: 200px;
+  width: 70vw;
+  margin: 100px auto;
+  border-radius: 5px;
+  margin-top: 4%;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+table button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+table {
+  margin-top: 2%;
+  border-collapse: collapse;
+}
+
+table th {
+  height: 3rem;
+  background-color: rgb(18, 137, 167);
+}
+
+table {
+  font-size: large;
+}
+
+.header button {
+  height: 30px;
+  border-left: 1px solid gray;
+  outline: none;
+}
+
+#btn_Subject {
+  border-right: 1px solid gray;
+}
+
+.content button, .quiz button {
+  border-radius: 5px;
+}

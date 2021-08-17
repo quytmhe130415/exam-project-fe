@@ -1,0 +1,94 @@
+#question textarea {
+  resize: none;
+  width: 95%;
+  height: 20%;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+#question {
+  border: 1px solid gray;
+}
+
+#answers textarea {
+  resize: none;
+  width: 25rem;
+  height: 2rem;
+}
+
+#answers {
+  display: flex;
+  border: 1px solid gray;
+  height: auto;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.divAnswer {
+  display: flex;
+  flex-direction: column;
+}
+
+#btn_submit {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.divAnswer h3 {
+  display: inline;
+  margin: 1rem;
+}
+
+#btn_add_answer {
+  margin-right: 1rem;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+select {
+  height: 30px;
+  outline: none;
+  font-size: small;
+}
+
+option:hover {
+  outline: none;
+}
+
+.title {
+  margin-top: -12px;
+  margin-left: 5px;
+  background-color: #ffffff;
+  width: 80px;
+}
+
+textarea {
+  margin-left: 1rem;
+}
+
+select {
+  margin-bottom: 1rem;
+}
+
+.divAddAnswer {
+  position: sticky;
+  top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}

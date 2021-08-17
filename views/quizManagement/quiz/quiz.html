@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Management</title>
+  <link rel="stylesheet" href="../quizManagement.css">
+  <link rel="stylesheet" href="./quiz.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <img src="https://image.flaticon.com/icons/png/512/2304/2304450.png" class="admin">
+      </div>
+      <div>
+        <button id="btn_Student">
+          Student
+        </button>
+        <button id="btn_Quizzes">
+          Quizzes Management
+        </button>
+        <button id="btn_Subject">
+          Subject
+        </button>
+      </div>
+      <div class="logo">
+        <img id="btn_Logout" src="https://image.flaticon.com/icons/svg/483/483343.svg">
+        </img>
+      </div>
+    </div>
+    <div class="divSubject">
+      <label for="subject">Choose subject:</label>
+
+      <select ct name="subject" id="subject">
+      </select>
+
+    </div>
+
+    <div class="quiz">
+
+      <h3 id="quizManager">Quizzes</h3>
+      <img id="btn_add" src="https://image.flaticon.com/icons/svg/1828/1828919.svg" alt="">
+      <table id="quizMana">
+
+      </table>
+    </div>
+    <div class="footer"></div>
+    <script src="./quiz.js"></script>
+  </div>
+</body>
+
+</html>
